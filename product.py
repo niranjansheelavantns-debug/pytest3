@@ -6,11 +6,11 @@ def product_info(product_id, name, quantity, price):
         f"Price:{price}"
     )
 
-if __name__ == "_main_":
-    product_id = "P102"
-    name = "Keyboard"
-    quantity = 5
-    price = 799.50
+if _name_ == "_main_":
+    product_id ="P102"
+    name ="Keyboard"
+    quantity =5
+    price =799.50
 
     print("Product Details:\n")
     print(product_info(product_id, name, quantity, price))
